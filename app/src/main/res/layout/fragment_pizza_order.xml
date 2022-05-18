@@ -4,9 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
+    <ListView
+        android:id="@+id/pizzaStoreListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="여기는 피자 주문 화면입니다."/>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
